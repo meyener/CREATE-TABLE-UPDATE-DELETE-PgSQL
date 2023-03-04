@@ -1,0 +1,65 @@
+--test veritabanınızda employee isimli sütun bilgileri
+--id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+
+--CREATE TABLE employee(
+--id INTEGER,
+--name VARCHAR(50),
+--birthday DATE,
+--email VARCHAR(100))
+
+--Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+
+--UPDATE employee
+--SET name = 'Zümrüt yener',
+--birthday = '2021-06-06',
+--email = 'yener@yener.com'
+--WHERE id = 5
+--RETURNING *;
+
+--UPDATE employee
+--SET name = 'aleyna yener',
+--birthday = '2005-05-05',
+--email = 'yener@yener.com'
+--WHERE id = 4
+--RETURNING *;
+
+--UPDATE employee
+--SET name = 'manolya yener',
+--birthday = '2021-06-06',
+--email = 'yener@yener.com'
+--WHERE id = 3
+--RETURNING *;
+
+--UPDATE employee
+--SET name = 'nergis yener',
+--birthday = '2021-06-06',
+--email = 'yener@yener.com'
+--WHERE id = 2
+--RETURNING *;
+
+--UPDATE employee
+--SET name = 'gül yener',
+--birthday = '2021-06-06',
+--email = 'yener@yener.com'
+--WHERE id = 1
+--RETURNING *;
+
+--SELECT * FROM employee
+--WHERE id<=5
+
+--Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+
+--DELETE FROM employee
+--WHERE name = 'Curcio Kirkebye';
+
+--DELETE FROM employee
+--WHERE id='1';
+
+--DELETE FROM employee
+--WHERE id='4';
+
+--DELETE FROM employee
+--WHERE id='3';
+
+--DELETE FROM employee
+--WHERE id='2';
